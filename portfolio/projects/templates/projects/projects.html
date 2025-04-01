@@ -9,7 +9,7 @@
 		{% for el in projects %}
 		<div class="alert alert-danger">
 			<h3>{{el.title}}</h3>
-			<p>To create I used...</p>
+			<p>{{el.anons}}</p>
 			<a href="{%url 'detail' el.id %}" class ='btn btn-warning'>Read</a>
 		</div>
 		{%endfor%}

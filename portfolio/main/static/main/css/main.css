@@ -1,15 +1,25 @@
 body {
-	background: #2c2c2c;
+    background: #2c2c2c;
+    display: flex;
+    min-height: 100vh;
 }
+
 aside {
-	float: left;
-	background: #212121;
-	width: 20%;
-	padding: 2.5%;
-	height: 100vh;
-	color: #fff;
-	border-right: 5px solid #4d4d4d;
+    background: #212121;
+    width: 20%;
+    padding: 2.5%;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+    display: flex;
+    flex-direction: column;
 }
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+    color: #fff;
+}
+
 aside img {
 	width:  80px;
 	float: left;

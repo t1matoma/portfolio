@@ -5,6 +5,7 @@ class Projects(models.Model):
     full_text = models.TextField('Project')
     github_link = models.CharField('Github link', max_length=50)
     anons = models.CharField('Anons', max_length=50)
+    video = models.FileField(upload_to='videos/', null=True, blank=True)
 
     def __str__(self):
         return self.title
