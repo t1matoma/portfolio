@@ -1,21 +1,17 @@
 {% extends "main/index.html" %}
-{%block title%}
-    project title
-{%endblock%}
-{%block content%}
-<div class="features">
-	<h1>My projects</h1>
-	{%if projects%}
-		{% for el in projects %}
-		<div class="alert alert-danger">
-			<h3>{{el.title}}</h3>
-			<p>{{el.anons}}</p>
-			<a href="{%url 'detail' el.id %}" class ='btn btn-warning'>Read</a>
-		</div>
-		{%endfor%}
-	{% else%}
-	<p>I have not projects</p>
-	{%endif%}
-	{#foasmfaasdasdf#}
+{% block title %}
+Projects - Temirlan Idrisov
+{% endblock title %}
+{% block content %}
+{% if projects %}
+<div class="projects-grid">
+	{% for el in projects %}
+	<article class="project-card">
+		<h3>{{el.title}}</h3>
+		<p>{{el.anons}}</p>
+		<a href="{%url 'detail' el.id %}" class="project-link">View Details</a>
+	</article>
+	{% endfor %}
 </div>
-{%endblock%}
+{% endif %}
+{% endblock content %}
