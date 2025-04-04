@@ -1,11 +1,26 @@
-# Portfolio Website
-
-This is a personal portfolio website built using Django.
+Project Description
+This is a personal portfolio website designed to showcase my projects and provide a way to contact me. The project is built with Django for the backend, using HTML and CSS for the frontend. It uses a SQLite database to store project data. New projects can be easily added through the built-in Django admin panel.
 
 ## Features
-- Showcases personal projects
-- Includes a blog for updates
-- Contact form to reach out
+- Display of personal projects with descriptions
+
+- Contact section for communication
+
+- Admin panel for managing and adding new projects
+
+ -Dark-themed design with red accents
+
+- Responsive layout
+
+## Technologies Used
+- Python (Django)
+
+- HTML
+
+- CSS
+
+- SQLite
+
 
 ## Installation
 1. Clone the repository:
