@@ -8,7 +8,7 @@ This is a personal portfolio website designed to showcase my projects and provid
 
 - Admin panel for managing and adding new projects
 
- -Dark-themed design with red accents
+- Dark-themed design with red accents
 
 - Responsive layout
 
