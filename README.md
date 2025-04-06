@@ -14,7 +14,7 @@ A professional portfolio website built with Django to showcase projects and prov
 - **Responsive Design** - Works on all devices
 - **Light/Dark Mode** - (если есть, добавьте)
 
-## 🛠️ Tech Stack
+##  Tech Stack
 | Category       | Technologies                         |
 |----------------|--------------------------------------|
 | Backend        | Django 4.2+, Python 3.10+           |
