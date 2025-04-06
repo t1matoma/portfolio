@@ -1,65 +1,56 @@
-Project Description
-This is a personal portfolio website designed to showcase my projects and provide a way to contact me. The project is built with Django for the backend, using HTML and CSS for the frontend. It uses a SQLite database to store project data. New projects can be easily added through the built-in Django admin panel.
+# 🌟 Personal Portfolio Website
 
-## Features
-- Display of personal projects with descriptions
+[![Django Version](https://img.shields.io/badge/Django-4.2+-green.svg)](https://www.djangoproject.com/)
+[![Python Version](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
 
-- Contact section for communication
+A professional portfolio website built with Django to showcase projects and provide contact information. Features an admin panel for easy content management.
 
-- Admin panel for managing and adding new projects
+![Screenshot of Portfolio](static/main/img/screenshot.png) <!-- Добавьте реальный скриншот -->
 
+## ✨ Key Features
+- **Project Gallery** - Display projects with descriptions and images
+- **Contact Form** - Easy communication for potential clients
+- **Admin Dashboard** - Add/edit projects without coding
+- **Responsive Design** - Works on all devices
+- **Light/Dark Mode** - (если есть, добавьте)
 
-- Responsive layout
+## 🛠️ Tech Stack
+| Category       | Technologies                         |
+|----------------|--------------------------------------|
+| Backend        | Django 4.2+, Python 3.10+           |
+| Frontend       | HTML5, CSS3                          |
+| Database       | SQLite (Production: PostgreSQL)      |
+| Deployment     | (укажите если есть: Heroku/Vercel)   |
 
-## Technologies Used
-- Python (Django)
+## 🚀 Quick Setup
 
-- HTML
+### Prerequisites
+- Python 3.10+
+- pip
 
-- CSS
+### Installation
+```bash
+# 1. Clone repository
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
 
-- SQLite
+# 2. Create virtual environment
+python -m venv .venv
+source .venv/bin/activate  # Linux/Mac
+.\.venv\Scripts\activate   # Windows
 
+# 3. Install dependencies
+pip install -r requirements.txt
 
-## Installation
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/yourrepo.git
-    ```
+# 4. Configure environment
+cp .env.example .env
+# Edit .env with your settings
 
-2. Navigate to the project directory:
-    ```bash
-    cd yourrepo
-    ```
+# 5. Run migrations
+python manage.py migrate
 
-3. Set up a virtual environment:
-    ```bash
-    python -m venv venv
-    ```
+# 6. Create admin user
+python manage.py createsuperuser
 
-4. Activate the virtual environment:
-    - On Windows:
-      ```bash
-      venv\Scripts\activate
-      ```
-    - On Mac/Linux:
-      ```bash
-      source venv/bin/activate
-      ```
-
-5. Install the required dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-6. Run migrations:
-    ```bash
-    python manage.py migrate
-    ```
-
-7. Start the development server:
-    ```bash
-    python manage.py runserver
-    ```
-
-Now you can open the site in your browser at `http://127.0.0.1:8000/`.
+# 7. Run development server
+python manage.py runserver
