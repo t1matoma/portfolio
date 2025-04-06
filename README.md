@@ -1,4 +1,4 @@
-# 🌟 Personal Portfolio Website
+#  Personal Portfolio Website
 
 [![Django Version](https://img.shields.io/badge/Django-4.2+-green.svg)](https://www.djangoproject.com/)
 [![Python Version](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
@@ -7,7 +7,7 @@ A professional portfolio website built with Django to showcase projects and prov
 
 ![Screenshot of Portfolio](static/main/img/screenshot.png) <!-- Добавьте реальный скриншот -->
 
-## ✨ Key Features
+##  Key Features
 - **Project Gallery** - Display projects with descriptions and images
 - **Contact Form** - Easy communication for potential clients
 - **Admin Dashboard** - Add/edit projects without coding
@@ -21,7 +21,7 @@ A professional portfolio website built with Django to showcase projects and prov
 | Frontend       | HTML5, CSS3                          |
 | Database       | SQLite (Production: PostgreSQL)      |
 
-## 🚀 Quick Setup
+##  Quick Setup
 
 ### Prerequisites
 - Python 3.10+
@@ -50,7 +50,7 @@ python manage.py createsuperuser
 # 7. Run development server
 python manage.py runserver
 ```
-## 🔐 Environment Configuration
+##  Environment Configuration
 
 The project uses environment variables for sensitive settings. 
 **Never commit your `.env` file to version control!**
