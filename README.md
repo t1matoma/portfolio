@@ -28,6 +28,7 @@ A professional portfolio website built with Django to showcase projects and prov
 - pip
 
 ### Installation
+```bash
 # 1. Clone repository
 git clone https://github.com/t1matoma/portfolio.git
 cd portfolio
@@ -40,10 +41,6 @@ source .venv/bin/activate  # Linux/Mac
 # 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Configure environment
-cp .env.example .env
-# Edit .env with your settings
-
 # 5. Run migrations
 python manage.py migrate
 
@@ -52,3 +49,15 @@ python manage.py createsuperuser
 
 # 7. Run development server
 python manage.py runserver
+```
+## 🔐 Environment Configuration
+
+The project uses environment variables for sensitive settings. 
+**Never commit your `.env` file to version control!**
+
+### Required `.env` variables:
+```ini
+# Django
+SECRET_KEY=your-secret-key-here
+DEBUG=True  # Set to False in production!
+ALLOWED_HOSTS=localhost,127.0.0.1
