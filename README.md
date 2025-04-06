@@ -28,7 +28,6 @@ A professional portfolio website built with Django to showcase projects and prov
 - pip
 
 ### Installation
-```bash
 # 1. Clone repository
 git clone https://github.com/t1matoma/portfolio.git
 cd portfolio
