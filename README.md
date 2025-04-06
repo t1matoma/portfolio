@@ -61,3 +61,5 @@ The project uses environment variables for sensitive settings.
 SECRET_KEY=your-secret-key-here
 DEBUG=True  # Set to False in production!
 ALLOWED_HOSTS=localhost,127.0.0.1
+```
+Now you can open the site in your browser at `http://127.0.0.1:8000/`.
