@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{% static "main/css/main.css" %}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile">
+                <h1>Temirlan Idrisov</h1>
+                <h2>Backend Developer</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="{% url "home" %}" class="active"><span>About Me</span></a></li>
+                    <li><a href="{% url "projects" %}"><span>Projects</span></a></li>
+                    <li><a href="{% url 'contacts' %}"><span>Contacts</span></a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="content">
+            {% block content %}
+			{% endblock %}
+        </main>
+    </div>
+</body>
+</html>

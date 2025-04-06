@@ -1,0 +1,39 @@
+{% extends "main/index.html" %}
+{% block title %}{{ details.title }}{% endblock %}
+{% block content %}
+<div class="hero">
+    <div class="contact-section">
+    <h1>{{ details.title }}</h1>
+    </div>
+    
+    <div style="text-align: center;">
+        <a href="{{ details.github_link }}" style="color: #eb5959; font-size: 20px; text-decoration: none; display: inline-block; transition: transform 0.2s;">
+            <li style="display: inline-block; list-style: none; padding: 10px;">
+                <i class=""></i>Github Repository
+            </li>
+        </a>
+    </div>
+
+    <style>
+        a:hover {
+            transform: scale(1.1);
+        }
+    </style>
+
+    <div class></div>
+
+    <p class="hero-text">{{ details.full_text }}</p>
+    {% if video_id %}
+    <div style="text-align: center; margin-top: 20px;">
+        <iframe width="640" height="360" 
+            src="https://www.youtube.com/embed/{{ video_id }}" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+{% endif %}
+
+
+</div>
+{% endblock %}

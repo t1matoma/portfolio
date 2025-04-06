@@ -1,0 +1,17 @@
+{% extends "main/index.html" %}
+{% block title %}
+Projects - Temirlan Idrisov
+{% endblock title %}
+{% block content %}
+{% if projects %}
+<div class="projects-grid">
+	{% for el in projects %}
+	<article class="project-card">
+		<h3>{{el.title}}</h3>
+		<p>{{el.anons}}</p>
+		<a href="{%url 'detail' el.id %}" class="project-link">View Details</a>
+	</article>
+	{% endfor %}
+</div>
+{% endif %}
+{% endblock content %}
