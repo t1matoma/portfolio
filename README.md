@@ -5,7 +5,6 @@
 
 A professional portfolio website built with Django to showcase projects and provide contact information. Features an admin panel for easy content management.
 
-![Screenshot of Portfolio](static/main/img/screenshot.png) <!-- Добавьте реальный скриншот -->
 
 ##  Key Features
 - **Project Gallery** - Display projects with descriptions and images
