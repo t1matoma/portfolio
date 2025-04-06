@@ -20,7 +20,6 @@ A professional portfolio website built with Django to showcase projects and prov
 | Backend        | Django 4.2+, Python 3.10+           |
 | Frontend       | HTML5, CSS3                          |
 | Database       | SQLite (Production: PostgreSQL)      |
-| Deployment     | (укажите если есть: Heroku/Vercel)   |
 
 ## 🚀 Quick Setup
 
@@ -31,7 +30,7 @@ A professional portfolio website built with Django to showcase projects and prov
 ### Installation
 ```bash
 # 1. Clone repository
-git clone https://github.com/yourusername/portfolio.git
+git clone https://github.com/t1matoma/portfolio.git
 cd portfolio
 
 # 2. Create virtual environment
