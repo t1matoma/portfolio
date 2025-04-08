@@ -16,9 +16,9 @@ A professional portfolio website built with Django to showcase projects and prov
 ##  Tech Stack
 | Category       | Technologies                         |
 |----------------|--------------------------------------|
-| Backend        | Django 4.2+, Python 3.10+           |
+| Backend        | Django 4.2+, Python 3.10+            |
 | Frontend       | HTML5, CSS3                          |
-| Database       | SQLite (Production: PostgreSQL)      |
+| Database       | SQLite                               |
 
 ##  Quick Setup
 
