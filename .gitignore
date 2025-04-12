@@ -6,6 +6,7 @@
 *.log
 *.sqlite3
 **/db.sqlite3
+**/staticfiles/
 
 # Virtual environments
 .venv/

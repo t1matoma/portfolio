@@ -11,7 +11,6 @@ A professional portfolio website built with Django to showcase projects and prov
 - **Contact Form** - Easy communication for potential clients
 - **Admin Dashboard** - Add/edit projects without coding
 - **Responsive Design** - Works on all devices
-- **Light/Dark Mode** - (если есть, добавьте)
 
 ##  Tech Stack
 | Category       | Technologies                         |
@@ -20,7 +19,7 @@ A professional portfolio website built with Django to showcase projects and prov
 | Frontend       | HTML5, CSS3                          |
 | Database       | SQLite                               |
 
-##  Quick Setup
+##  Quick Setup without Docker
 
 ### Prerequisites
 - Python 3.10+
