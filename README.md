@@ -31,7 +31,7 @@ A professional portfolio website built with Django to showcase projects and prov
 # 1. Clone repository
 git clone https://github.com/t1matoma/portfolio.git
 cd portfolio
-
+```
 ###  Environment Configuration
 
 The project uses environment variables for sensitive settings. 
