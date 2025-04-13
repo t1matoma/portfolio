@@ -1,6 +1,6 @@
 #  Personal Portfolio Website
 
-[![Django Version](https://img.shields.io/badge/Django-4.2+-green.svg)](https://www.djangoproject.com/)
+[![Django Version](https://img.shields.io/badge/Django-5.1+-green.svg)](https://www.djangoproject.com/)
 [![Python Version](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://python.org)
 
 A professional portfolio website built with Django to showcase projects and provide contact information. Features an admin panel for easy content management.
@@ -15,7 +15,7 @@ A professional portfolio website built with Django to showcase projects and prov
 ##  Tech Stack
 | Category       | Technologies                         |
 |----------------|--------------------------------------|
-| Backend        | Django 4.2+, Python 3.10+            |
+| Backend        | Django 5.1+, Python 3.10+            |
 | Frontend       | HTML5, CSS3                          |
 | Database       | SQLite                               |
 
