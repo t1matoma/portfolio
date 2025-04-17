@@ -102,7 +102,6 @@ pip3 install -r requirements.txt
 
 # 5. Run migrations
 cd portfolio
-python3 manage.py makemigrations
 python3 manage.py migrate
 
 # 6. Create admin user
