@@ -101,6 +101,7 @@ source .venv/bin/activate  # Linux/Mac
 pip install -r requirements.txt
 
 # 5. Run migrations
+cd portfolio
 python manage.py migrate
 
 # 6. Create admin user
